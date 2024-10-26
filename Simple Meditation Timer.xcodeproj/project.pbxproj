@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF779CD2CCD4F36006D62CF /* Simple Meditation Timer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CAF779CC2CCD4F36006D62CF /* Simple Meditation Timer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF779B72CCD4F36006D62CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF7799E2CCD4F35006D62CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF779A52CCD4F35006D62CF;
+			remoteInfo = "Simple Meditation Timer";
+		};
+		CAF779C12CCD4F36006D62CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF7799E2CCD4F35006D62CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF779A52CCD4F35006D62CF;
+			remoteInfo = "Simple Meditation Timer";
+		};
+		CAF779CE2CCD4F36006D62CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF7799E2CCD4F35006D62CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF779CB2CCD4F36006D62CF;
+			remoteInfo = "Simple Meditation Timer Watch App";
+		};
+		CAF779DF2CCD4F37006D62CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF7799E2CCD4F35006D62CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF779CB2CCD4F36006D62CF;
+			remoteInfo = "Simple Meditation Timer Watch App";
+		};
+		CAF779E92CCD4F37006D62CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF7799E2CCD4F35006D62CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF779CB2CCD4F36006D62CF;
+			remoteInfo = "Simple Meditation Timer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAF779F52CCD4F37006D62CF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CAF779CD2CCD4F36006D62CF /* Simple Meditation Timer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAF779A62CCD4F35006D62CF /* Simple Meditation Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Meditation Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF779B62CCD4F36006D62CF /* Simple Meditation TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Meditation TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF779C02CCD4F36006D62CF /* Simple Meditation TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Meditation TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF779CC2CCD4F36006D62CF /* Simple Meditation Timer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Meditation Timer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF779DE2CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Meditation Timer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF779E82CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Meditation Timer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CAF779A82CCD4F35006D62CF /* Simple Meditation Timer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Simple Meditation Timer";
+			sourceTree = "<group>";
+		};
+		CAF779B92CCD4F36006D62CF /* Simple Meditation TimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Simple Meditation TimerTests";
+			sourceTree = "<group>";
+		};
+		CAF779C32CCD4F36006D62CF /* Simple Meditation TimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Simple Meditation TimerUITests";
+			sourceTree = "<group>";
+		};
+		CAF779D02CCD4F36006D62CF /* Simple Meditation Timer Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Simple Meditation Timer Watch App";
+			sourceTree = "<group>";
+		};
+		CAF779E12CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Simple Meditation Timer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CAF779EB2CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Simple Meditation Timer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF779A32CCD4F35006D62CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779B32CCD4F36006D62CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779BD2CCD4F36006D62CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779C92CCD4F36006D62CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779DB2CCD4F37006D62CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779E52CCD4F37006D62CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF7799D2CCD4F35006D62CF = {
+			isa = PBXGroup;
+			children = (
+				CAF779A82CCD4F35006D62CF /* Simple Meditation Timer */,
+				CAF779B92CCD4F36006D62CF /* Simple Meditation TimerTests */,
+				CAF779C32CCD4F36006D62CF /* Simple Meditation TimerUITests */,
+				CAF779D02CCD4F36006D62CF /* Simple Meditation Timer Watch App */,
+				CAF779E12CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests */,
+				CAF779EB2CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests */,
+				CAF779A72CCD4F35006D62CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF779A72CCD4F35006D62CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF779A62CCD4F35006D62CF /* Simple Meditation Timer.app */,
+				CAF779B62CCD4F36006D62CF /* Simple Meditation TimerTests.xctest */,
+				CAF779C02CCD4F36006D62CF /* Simple Meditation TimerUITests.xctest */,
+				CAF779CC2CCD4F36006D62CF /* Simple Meditation Timer Watch App.app */,
+				CAF779DE2CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests.xctest */,
+				CAF779E82CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF779A52CCD4F35006D62CF /* Simple Meditation Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF779F62CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer" */;
+			buildPhases = (
+				CAF779A22CCD4F35006D62CF /* Sources */,
+				CAF779A32CCD4F35006D62CF /* Frameworks */,
+				CAF779A42CCD4F35006D62CF /* Resources */,
+				CAF779F52CCD4F37006D62CF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF779CF2CCD4F36006D62CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAF779A82CCD4F35006D62CF /* Simple Meditation Timer */,
+			);
+			name = "Simple Meditation Timer";
+			packageProductDependencies = (
+			);
+			productName = "Simple Meditation Timer";
+			productReference = CAF779A62CCD4F35006D62CF /* Simple Meditation Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF779B52CCD4F36006D62CF /* Simple Meditation TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF779F92CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation TimerTests" */;
+			buildPhases = (
+				CAF779B22CCD4F36006D62CF /* Sources */,
+				CAF779B32CCD4F36006D62CF /* Frameworks */,
+				CAF779B42CCD4F36006D62CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF779B82CCD4F36006D62CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAF779B92CCD4F36006D62CF /* Simple Meditation TimerTests */,
+			);
+			name = "Simple Meditation TimerTests";
+			packageProductDependencies = (
+			);
+			productName = "Simple Meditation TimerTests";
+			productReference = CAF779B62CCD4F36006D62CF /* Simple Meditation TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF779BF2CCD4F36006D62CF /* Simple Meditation TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF779FC2CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation TimerUITests" */;
+			buildPhases = (
+				CAF779BC2CCD4F36006D62CF /* Sources */,
+				CAF779BD2CCD4F36006D62CF /* Frameworks */,
+				CAF779BE2CCD4F36006D62CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF779C22CCD4F36006D62CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAF779C32CCD4F36006D62CF /* Simple Meditation TimerUITests */,
+			);
+			name = "Simple Meditation TimerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Simple Meditation TimerUITests";
+			productReference = CAF779C02CCD4F36006D62CF /* Simple Meditation TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CAF779CB2CCD4F36006D62CF /* Simple Meditation Timer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF779F22CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer Watch App" */;
+			buildPhases = (
+				CAF779C82CCD4F36006D62CF /* Sources */,
+				CAF779C92CCD4F36006D62CF /* Frameworks */,
+				CAF779CA2CCD4F36006D62CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CAF779D02CCD4F36006D62CF /* Simple Meditation Timer Watch App */,
+			);
+			name = "Simple Meditation Timer Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Simple Meditation Timer Watch App";
+			productReference = CAF779CC2CCD4F36006D62CF /* Simple Meditation Timer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF779DD2CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF779FF2CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer Watch AppTests" */;
+			buildPhases = (
+				CAF779DA2CCD4F37006D62CF /* Sources */,
+				CAF779DB2CCD4F37006D62CF /* Frameworks */,
+				CAF779DC2CCD4F37006D62CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF779E02CCD4F37006D62CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAF779E12CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests */,
+			);
+			name = "Simple Meditation Timer Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Simple Meditation Timer Watch AppTests";
+			productReference = CAF779DE2CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF779E72CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF77A022CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer Watch AppUITests" */;
+			buildPhases = (
+				CAF779E42CCD4F37006D62CF /* Sources */,
+				CAF779E52CCD4F37006D62CF /* Frameworks */,
+				CAF779E62CCD4F37006D62CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF779EA2CCD4F37006D62CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CAF779EB2CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests */,
+			);
+			name = "Simple Meditation Timer Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Simple Meditation Timer Watch AppUITests";
+			productReference = CAF779E82CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF7799E2CCD4F35006D62CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CAF779A52CCD4F35006D62CF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CAF779B52CCD4F36006D62CF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CAF779A52CCD4F35006D62CF;
+					};
+					CAF779BF2CCD4F36006D62CF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CAF779A52CCD4F35006D62CF;
+					};
+					CAF779CB2CCD4F36006D62CF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CAF779DD2CCD4F37006D62CF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CAF779CB2CCD4F36006D62CF;
+					};
+					CAF779E72CCD4F37006D62CF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CAF779CB2CCD4F36006D62CF;
+					};
+				};
+			};
+			buildConfigurationList = CAF779A12CCD4F35006D62CF /* Build configuration list for PBXProject "Simple Meditation Timer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF7799D2CCD4F35006D62CF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CAF779A72CCD4F35006D62CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF779A52CCD4F35006D62CF /* Simple Meditation Timer */,
+				CAF779B52CCD4F36006D62CF /* Simple Meditation TimerTests */,
+				CAF779BF2CCD4F36006D62CF /* Simple Meditation TimerUITests */,
+				CAF779CB2CCD4F36006D62CF /* Simple Meditation Timer Watch App */,
+				CAF779DD2CCD4F37006D62CF /* Simple Meditation Timer Watch AppTests */,
+				CAF779E72CCD4F37006D62CF /* Simple Meditation Timer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF779A42CCD4F35006D62CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779B42CCD4F36006D62CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779BE2CCD4F36006D62CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779CA2CCD4F36006D62CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779DC2CCD4F37006D62CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779E62CCD4F37006D62CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF779A22CCD4F35006D62CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779B22CCD4F36006D62CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779BC2CCD4F36006D62CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779C82CCD4F36006D62CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779DA2CCD4F37006D62CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF779E42CCD4F37006D62CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF779B82CCD4F36006D62CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF779A52CCD4F35006D62CF /* Simple Meditation Timer */;
+			targetProxy = CAF779B72CCD4F36006D62CF /* PBXContainerItemProxy */;
+		};
+		CAF779C22CCD4F36006D62CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF779A52CCD4F35006D62CF /* Simple Meditation Timer */;
+			targetProxy = CAF779C12CCD4F36006D62CF /* PBXContainerItemProxy */;
+		};
+		CAF779CF2CCD4F36006D62CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF779CB2CCD4F36006D62CF /* Simple Meditation Timer Watch App */;
+			targetProxy = CAF779CE2CCD4F36006D62CF /* PBXContainerItemProxy */;
+		};
+		CAF779E02CCD4F37006D62CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF779CB2CCD4F36006D62CF /* Simple Meditation Timer Watch App */;
+			targetProxy = CAF779DF2CCD4F37006D62CF /* PBXContainerItemProxy */;
+		};
+		CAF779EA2CCD4F37006D62CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF779CB2CCD4F36006D62CF /* Simple Meditation Timer Watch App */;
+			targetProxy = CAF779E92CCD4F37006D62CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAF779F02CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF779F12CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CAF779F32CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple Meditation Timer Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Meditation Timer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Eric-Williams.Simple-Meditation-Timer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		CAF779F42CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple Meditation Timer Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Meditation Timer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Eric-Williams.Simple-Meditation-Timer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		CAF779F72CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple Meditation Timer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Meditation Timer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF779F82CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simple Meditation Timer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Meditation Timer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF779FA2CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Meditation Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simple Meditation Timer";
+			};
+			name = Debug;
+		};
+		CAF779FB2CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Meditation Timer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simple Meditation Timer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF779FD2CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Meditation Timer";
+			};
+			name = Debug;
+		};
+		CAF779FE2CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple Meditation Timer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF77A002CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Meditation Timer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simple Meditation Timer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		CAF77A012CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Meditation Timer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simple Meditation Timer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		CAF77A032CCD4F37006D62CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Simple Meditation Timer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		CAF77A042CCD4F37006D62CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Williams.Simple-Meditation-Timer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Simple Meditation Timer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF779A12CCD4F35006D62CF /* Build configuration list for PBXProject "Simple Meditation Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF779F02CCD4F37006D62CF /* Debug */,
+				CAF779F12CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF779F22CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF779F32CCD4F37006D62CF /* Debug */,
+				CAF779F42CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF779F62CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF779F72CCD4F37006D62CF /* Debug */,
+				CAF779F82CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF779F92CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF779FA2CCD4F37006D62CF /* Debug */,
+				CAF779FB2CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF779FC2CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF779FD2CCD4F37006D62CF /* Debug */,
+				CAF779FE2CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF779FF2CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF77A002CCD4F37006D62CF /* Debug */,
+				CAF77A012CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF77A022CCD4F37006D62CF /* Build configuration list for PBXNativeTarget "Simple Meditation Timer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF77A032CCD4F37006D62CF /* Debug */,
+				CAF77A042CCD4F37006D62CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF7799E2CCD4F35006D62CF /* Project object */;
+}
